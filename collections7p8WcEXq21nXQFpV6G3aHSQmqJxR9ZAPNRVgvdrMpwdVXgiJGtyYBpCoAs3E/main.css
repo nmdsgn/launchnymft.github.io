@@ -1,0 +1,233 @@
+/*! CSS Used from: https://amazing-kheer-159df3aa.netlify.app/_next/static/css/2332b256f1d508b9.css */
+
+.NavBar_navbar__QOTff {
+    position: fixed;
+    top: 0;
+    z-index: 6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 32px;
+    width: 100%;
+    height: 76px;
+    background: #000;
+    border-bottom: 1px solid var(--main-gray);
+}
+
+.NavBar_navbar__QOTff .NavBar_navlink__9ZzHR {
+    font-family: elza-text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.Footer_columnLink___qy_I {
+    font-size: 14px;
+    color: #9b9eaf;
+    transition: color 0.2s;
+}
+
+.Footer_columnLink___qy_I:hover {
+    color: var(--main-colour);
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: elza-text, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: elza-text, sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: 90 transparent;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #949494;
+    border-radius: 20px;
+    border: 3px solid transparent;
+}
+
+body,
+body[data-theme="dark"] {
+    --text-primary: #fff;
+    --text-second: #a0a0a0;
+    --text-third: #b3b3b3;
+    --bg-primary: #000;
+    --bg-second: #1a1a1a;
+    --bg-third: #333;
+    --bg-dialog: #1b1c20;
+    --gradient-main: linear-gradient( 160deg, var(--main-colour) 0%, var(--second-colour) 100%);
+    --input-bg: #1b1c20;
+    --bg-mask: hsla(0, 0%, 100%, 0.05);
+    --bg-mask-h: hsla(0, 0%, 100%, 0.1);
+    --sparkle: rgba(0, 0, 0, 0.8);
+    --banner-gradient-end: #000;
+    --blue: #304eeb;
+    --sky: #41d9fb;
+    --lime: #99ef83;
+    --yellow: #fff174;
+    --orange: #ffb800;
+    --magenta: #f35af6;
+    --main-gray: #1b1c20;
+    --red: #ff525c;
+}
+
+body {
+    --main-colour: var(--blue);
+    --second-colour: var(--sky);
+}
+
+body[data-colour="Reef"] {
+    --main-colour: var(--sky);
+    --second-colour: var(--lime);
+}
+
+body {
+    background: var(--bg-primary);
+    transition: background 0.25s ease-in-out;
+}
+
+body,
+h1 {
+    color: var(--text-primary);
+}
+
+.gradientText {
+    background: linear-gradient( 90deg, var(--main-colour) 0, var(--second-colour) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradientText {
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+/*! CSS Used from: Embedded */
+
+.css-1b47e06 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media print {
+    .css-1b47e06 {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}
+
+
+/*! CSS Used from: Embedded */
+
+.css-vubbuv {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+
+
+/*! CSS Used from: Embedded */
+
+.css-vubbuv {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: "elza-text";
+    src: url("https://use.typekit.net/af/d053a5/00000000000000007735f93a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d053a5/00000000000000007735f93a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d053a5/00000000000000007735f93a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "elza-text";
+    src: url("https://use.typekit.net/af/9b4894/00000000000000007735f938/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/9b4894/00000000000000007735f938/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/9b4894/00000000000000007735f938/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
